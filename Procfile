@@ -1,1 +1,1 @@
-web : npm install && npm install grunt-cli -g && grunt
+web : npm install && grunt
