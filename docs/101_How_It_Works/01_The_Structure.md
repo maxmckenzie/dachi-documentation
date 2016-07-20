@@ -2,9 +2,12 @@
 It is good practice to componentize code for a website. Dachi supplies this through the use of Modules. Modules are
 simply folders in the **/src/** directory, and the usage of modules is more of a theoretical concept. A Module should
 implement a single concept in your project. A Module can communicate with other Modules with ease. Doctine (for models)
-and Twig (for templating) both support namespacing, in these cases we automatically namespace to the module name. For
-example, let's say we are developing a project to help a small business manage their a list of their suppliers, place
-orders with suppliers and manage clients. We would typically attempt to split the project into it's core components, and
+and Twig (for templating) both support namespacing, in these cases we automatically namespace to the module name.
+
+For example, let's say we are developing a project to help a small business manage a list of their suppliers, place
+orders with suppliers and manage clients.
+
+We would typically attempt to split the project into it's core components, and
 then build the controllers under these components. In this case we would have a structure similar to the one shown.
 ```
 |-- Suppliers
@@ -20,7 +23,7 @@ then build the controllers under these components. In this case we would have a 
 |   |  '- [...]
 |   |
 |   |- ControllerManage.php
-|   |- ControllerNewletter.php
+|   |- ControllerNewsletter.php
 |   '- [...]
 |
 '-- Orders
@@ -83,7 +86,7 @@ Files::delete("test_file.txt");
 ```
 
 ### Application Flow
-"If you can't draw a picture of it, it's too complex."
+*"If you can't draw a picture of it, it's too complex."*
 ![Application Flow Diagram](../img/application_flow.png)
 ```php
 /**
@@ -114,7 +117,7 @@ isn't being used)
 
 **/config/** Contains all dachi configuration. Contains subfolders for each environment (local, development, production)
 
-**/src/** Contains all the projects source code. This is where your controllers, models and views are stored. 
+**/src/** Contains all the projects source code. This is where your controllers, models and views are stored.
 
 **/tests/** Contains all the projects test code. By default this will only contain a dummy test.
 
