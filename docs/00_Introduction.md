@@ -21,8 +21,8 @@ and module installation.
 
 ## Pages left to write
  * How It Works
-	* Assets & Stylesheets
-	* Radon UI
+	* ~~Assets & Stylesheets~~
+	* ~~Radon UI~~
 	* Testing
 	* Filament
  * Extensions
