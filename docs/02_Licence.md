@@ -1,83 +1,165 @@
-#### Dachi Software Licensing
-This Software and Source Code License Agreement ("AGREEMENT") is a legal agreement between You (the "LICENSEE") and
-LemonDigits Ltd ( the “LICENSOR”) from whom LICENSEE acquired the software product(s) ("SOFTWARE").
+    GNU LESSER GENERAL PUBLIC LICENSE
+    Version 3, 29 June 2007
 
-The license(s) granted herein are granted to the LICENSEE for the purchase of an appropriate number of licenses to
-certain LICENSOR software products to be used by the LICENSEE and, if applicable, by the LICENSEE's employees,
-subcontractors or other agents in performing services for the LICENSEE (such employees, subcontractors and agents are
-collectively referred to herein as "EMPLOYEES"). By installing, copying or otherwise using the software or its
-accompanying materials the LICENSEE agrees to be bound by, and to require each of its EMPLOYEES to be bound by, the
-terms of this AGREEMENT. If you do not agree with the terms of this AGREEMENT, the LICENSOR is unwilling to license the
-SOFTWARE to you. In such event, you may not use or copy the SOFTWARE.
+Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
 
-The enclosed software, including, but not limited to, one or more of the following: source code, object code, dynamic
-link libraries, statically linked libraries, executables, header files, sample programs, utility programs, Makefiles,
-project files and scripts (collectively, the "SOFTWARE") and all user documentation related thereto (the
-"DOCUMENTATION") is owned by LICENSOR or its suppliers and is protected by English copyright laws and international
-treaties. The SOFTWARE is licensed, not sold. The LICENSEE may use the SOFTWARE on any number of computers only in
-accordance with the terms and conditions set forth in this AGREEMENT.
 
-##### License Grant
-Subject to the terms and conditions set forth herein, the LICENSEE shall have the non-exclusive, non-transferable right
-to: Execute multiple instances of the SOFTWARE on a multiple servers, under the scope of the project licensed in
-perpetuity ("PURPOSE").
+This version of the GNU Lesser General Public License incorporates
+the terms and conditions of version 3 of the GNU General Public
+License, supplemented by the additional permissions listed below.
 
-##### Restrictions
-Unless expressly permitted under this AGREEMENT or otherwise by LICENSOR, you will not:
+0. Additional Definitions.
 
-a) Distribute in any manner any of the header files, source code, SAMPLE CODE, Makefiles, object modules, documentation
-or independent static libraries of the SOFTWARE or any portion thereof.
-b) Use, copy, merge or compile all or any portion of the source code or object code of the SOFTWARE except as expressly
-provided in this AGREEMENT. 
-c) Alter, remove or cover proprietary notices in or on the SOFTWARE, related documentation or storage media. 
-d) Distribute any portion of the SOFTWARE or any derivative of any portion of the SOFTWARE in a software development
-product or otherwise in competition with LICENSOR.
-e) Decompile, disassemble or reverse engineer any object code form of any portion of the SOFTWARE. 
-f) Rent, lease, license, transfer or otherwise provide access to the SOFTWARE or related components.
+As used herein, "this License" refers to version 3 of the GNU Lesser
+General Public License, and the "GNU GPL" refers to version 3 of the GNU
+General Public License.
 
-The source code of the SOFTWARE may contain the source of other software that is not covered by this license, in these
-cases this will be indicated in the source code and the applicable license will be attached.
+"The Library" refers to a covered work governed by this License,
+other than an Application or a Combined Work as defined below.
 
-The source code of the SOFTWARE is a valuable asset of LICENSOR. The LICENSEE hereby agrees to keep all source code of
-the SOFTWARE in strict confidence and to require each of its EMPLOYEES to keep all source code of the SOFTWARE in strict
-confidence. Neither the LICENSEE nor any EMPLOYEE may transfer or assign the SOFTWARE or its rights under this
-AGREEMENT.
+An "Application" is any work that makes use of an interface provided
+by the Library, but which is not otherwise based on the Library.
+Defining a subclass of a class defined by the Library is deemed a mode
+of using an interface provided by the Library.
 
-#### Intellectual Property Assignment
-The LICENSOR here by grants the LICENSEE free use of the SOFTWARE in perpetuity for the PURPOSE and only the PURPOSE. In
-most circumstances the SOFTWARE is used as the framework for other software to be developed upon. Any such software,
-modules, models, templates and assets built upon the framework will be the intellectual property of the LICENSEE as a
-whole. The LICENSOR will retain intellectual property over the SOFTWARE.
+A "Combined Work" is a work produced by combining or linking an
+Application with the Library.  The particular version of the Library
+with which the Combined Work was made is also called the "Linked
+Version".
 
-#### Warranty
-The SOFTWARE and it's related documentation are provided "as is". The LICENSOR points out expressly that with
-state-of-the-art technology it is not possible to develop computer programs that will function flawlessly under all
-conceivable circumstances. The extent of the warranty provided by the LICENSOR is that the SOFTWARE will generally
-function as described in the program description.
+The "Minimal Corresponding Source" for a Combined Work means the
+Corresponding Source for the Combined Work, excluding any source code
+for portions of the Combined Work that, considered in isolation, are
+based on the Application, and not on the Linked Version.
 
-#### Limitation of Liability
-In no event will either party or either parties officers, employees, suppliers, distributors or licensees
-("REPRESENTATIVES") be liable to the other party for any indirect, incidental, special or consequential damages
-whatsoever, including but not limited to loss of revenue, lost or damaged data or other commercial or economic loss,
-arising out of any breach of this AGREEMENT, any use or inability to use the SOFTWARE or any claim made by a third party
- or REPRESENTATIVES.
+The "Corresponding Application Code" for a Combined Work means the
+object code and/or source code for the Application, including any data
+and utility programs needed for reproducing the Combined Work from the
+Application, but excluding the System Libraries of the Combined Work.
 
-#### Term and Termination
-The term of this AGREEMENT is perpetual. However, this AGREEMENT (including all of the licenses granted herein) will
-terminate automatically and immediately in the event of any material breach of its terms or conditions if not corrected
-within 30 days. In no case shall accidental disclosure of licensed source code or theft of LICENSEE’s computers
-containing said licensed source code be a cause for termination of this AGREEMENT. In the event of such termination,
-LICENSEE shall promptly destroy all copies of the SOFTWARE and DOCUMENTATION in his or her possession or control.
+1. Exception to Section 3 of the GNU GPL.
 
-#### Indemnity
-The LICENSEE shall indemnify, hold harmless and defend the LICENSOR and their respective officers, directors and
-employees, from and against any damages, liabilities and costs (including reasonable attorneys' fees) incurred in
-connection with any claims or lawsuits that arise or result from 
+You may convey a covered work under sections 3 and 4 of this License
+without being bound by section 3 of the GNU GPL.
 
-(i) distribution of any application products or
-(ii) the breach by the LICENSEE or any of its SOFTWARE DEVELOPERS of any terms of this AGREEMENT.
+2. Conveying Modified Versions.
 
-#### Technical Support
-LICENSOR has no obligation under this AGREEMENT to provide maintenance, support or training. However technical support
-can be agreed in relation to a particular project and/or work contract. This will be supplied separately in the form of
-an SLA (Service Level Agreement).
+If you modify a copy of the Library, and, in your modifications, a
+facility refers to a function or data to be supplied by an Application
+that uses the facility (other than as an argument passed when the
+facility is invoked), then you may convey a copy of the modified
+version:
+
+a) under this License, provided that you make a good faith effort to
+ensure that, in the event an Application does not supply the
+function or data, the facility still operates, and performs
+whatever part of its purpose remains meaningful, or
+
+b) under the GNU GPL, with none of the additional permissions of
+this License applicable to that copy.
+
+3. Object Code Incorporating Material from Library Header Files.
+
+The object code form of an Application may incorporate material from
+a header file that is part of the Library.  You may convey such object
+code under terms of your choice, provided that, if the incorporated
+material is not limited to numerical parameters, data structure
+layouts and accessors, or small macros, inline functions and templates
+(ten or fewer lines in length), you do both of the following:
+
+a) Give prominent notice with each copy of the object code that the
+Library is used in it and that the Library and its use are
+covered by this License.
+
+b) Accompany the object code with a copy of the GNU GPL and this license
+document.
+
+4. Combined Works.
+
+You may convey a Combined Work under terms of your choice that,
+taken together, effectively do not restrict modification of the
+portions of the Library contained in the Combined Work and reverse
+engineering for debugging such modifications, if you also do each of
+the following:
+
+a) Give prominent notice with each copy of the Combined Work that
+the Library is used in it and that the Library and its use are
+covered by this License.
+
+b) Accompany the Combined Work with a copy of the GNU GPL and this license
+document.
+
+c) For a Combined Work that displays copyright notices during
+execution, include the copyright notice for the Library among
+these notices, as well as a reference directing the user to the
+copies of the GNU GPL and this license document.
+
+d) Do one of the following:
+
+0) Convey the Minimal Corresponding Source under the terms of this
+License, and the Corresponding Application Code in a form
+suitable for, and under terms that permit, the user to
+recombine or relink the Application with a modified version of
+the Linked Version to produce a modified Combined Work, in the
+manner specified by section 6 of the GNU GPL for conveying
+Corresponding Source.
+
+1) Use a suitable shared library mechanism for linking with the
+Library.  A suitable mechanism is one that (a) uses at run time
+a copy of the Library already present on the user's computer
+system, and (b) will operate properly with a modified version
+of the Library that is interface-compatible with the Linked
+Version.
+
+e) Provide Installation Information, but only if you would otherwise
+be required to provide such information under section 6 of the
+GNU GPL, and only to the extent that such information is
+necessary to install and execute a modified version of the
+Combined Work produced by recombining or relinking the
+Application with a modified version of the Linked Version. (If
+you use option 4d0, the Installation Information must accompany
+the Minimal Corresponding Source and Corresponding Application
+Code. If you use option 4d1, you must provide the Installation
+Information in the manner specified by section 6 of the GNU GPL
+for conveying Corresponding Source.)
+
+5. Combined Libraries.
+
+You may place library facilities that are a work based on the
+Library side by side in a single library together with other library
+facilities that are not Applications and are not covered by this
+License, and convey such a combined library under terms of your
+choice, if you do both of the following:
+
+a) Accompany the combined library with a copy of the same work based
+on the Library, uncombined with any other library facilities,
+conveyed under the terms of this License.
+
+b) Give prominent notice with the combined library that part of it
+is a work based on the Library, and explaining where to find the
+accompanying uncombined form of the same work.
+
+6. Revised Versions of the GNU Lesser General Public License.
+
+The Free Software Foundation may publish revised and/or new versions
+of the GNU Lesser General Public License from time to time. Such new
+versions will be similar in spirit to the present version, but may
+differ in detail to address new problems or concerns.
+
+Each version is given a distinguishing version number. If the
+Library as you received it specifies that a certain numbered version
+of the GNU Lesser General Public License "or any later version"
+applies to it, you have the option of following the terms and
+conditions either of that published version or of any later version
+published by the Free Software Foundation. If the Library as you
+received it does not specify a version number of the GNU Lesser
+General Public License, you may choose any version of the GNU Lesser
+General Public License ever published by the Free Software Foundation.
+
+If the Library as you received it specifies that a proxy can decide
+whether future versions of the GNU Lesser General Public License shall
+apply, that proxy's public statement of acceptance of any version is
+permanent authorization for you to choose that version for the
+Library.

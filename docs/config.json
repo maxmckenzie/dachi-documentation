@@ -13,7 +13,7 @@
     "float": true,
     "file_editor": false,
     "links": {
-        "GitLab Repo": "http://gitlab.lemondigits.com/packages/dachi",
+        "Github Repo": "http://github.com/lemondigits/dachi",
         "Doctrine Docs": "http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/tutorials/getting-started.html",
         "Twig Docs": "http://twig.sensiolabs.org/doc/templates.html"
     }

@@ -1,5 +1,5 @@
-Dachi is a powerful, fast and lightweight web framework, developed to be used by LemonDigits for rapid, well defined and
-consistant web development. Battle tested daily in production!
+Dachi is a powerful, fast and lightweight web framework, used by [LemonDigits](http://lemondigits.com) for rapid, well defined and
+consistent web development. Battle tested daily in production!
 
 Dachi is very tightly based upon a MVC(+RH) development pattern using a combination of open-source projects to create a
 software framework that is designed to support the development of websites and applications. Dachi aims to alleviate
@@ -21,8 +21,8 @@ and module installation.
 
 ## Pages left to write
  * How It Works
-	* Assets & Stylesheets
-	* Radon UI
+	* ~~Assets & Stylesheets~~
+	* ~~Radon UI~~
 	* Testing
 	* Filament
  * Extensions
